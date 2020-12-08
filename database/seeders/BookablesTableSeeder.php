@@ -13,6 +13,6 @@ class BookablesTableSeeder extends Seeder
      */
     public function run()
     {
-        \App\Models\Bookable::factory()->count(30)->create();
+        \App\Models\Bookable::factory()->count(100)->create();
     }
 }
